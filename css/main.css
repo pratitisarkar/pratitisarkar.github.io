@@ -1860,12 +1860,13 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997; }
+  z-index: 997;
+  background: #222222; }
 
 #header.header-scrolled {
   position: fixed;
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
-  background: #fff;
+  background: #222222;
   transition: all 0.5s; }
   #header.header-scrolled #nav-menu-container {
     margin-left: auto; }
